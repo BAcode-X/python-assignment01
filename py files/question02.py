@@ -15,7 +15,7 @@ def largest_number(x, y, z):
     return temp[-1]
 
 if __name__ == '__main__':
-    x, y, z = 5, 3, 0
+    x, y, z = map(int, input("Enter the value of x y and z separated by a space then press 'Enter'\n").split())
 
     answer = largest_number(x, y, z)
 
